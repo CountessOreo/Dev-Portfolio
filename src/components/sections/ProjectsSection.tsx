@@ -4,6 +4,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { GithubLogo } from "phosphor-react";
 import { projects } from "../data/projects";
+import Link from 'next/link';
+
 import {
   SiPython, SiUnity, SiApache, SiMysql, SiJupyter, SiTensorflow,
   SiFlask, SiSharp, SiHtml5, SiCss3, SiJavascript, SiDotnet,
@@ -208,9 +210,9 @@ const ProjectsSection = () => {
         {/* View All Projects */}
         {filteredProjects.length > 6 && (
           <div className="text-center mt-12">
-            <a href="/projects" className="neon-button">
-              View All Projects
-            </a>
+          <Link href="/projects" className="neon-button">
+            View All Projects
+          </Link>
           </div>
         )}
       </div>
