@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Starfield from "../design/Starfield";
 import { motion } from "framer-motion";
-
 import SkillsSection from "./SkillsSecton";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -15,32 +14,31 @@ const AboutSection = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Section fade in
+      // Section fade-in
       gsap.fromTo(
         sectionRef.current,
-        { opacity: 0, filter: "blur(10px)" },
+        { autoAlpha: 0, y: 40 },
         {
-          opacity: 1,
-          filter: "blur(0px)",
-          duration: 1,
+          autoAlpha: 1,
+          y: 0,
+          duration: 0.8,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 80%",
-            end: "bottom 20%",
+            start: "top 85%",
             toggleActions: "play none none reverse",
           },
         }
       );
 
-      // Image animation
+      // Image fly-in
       gsap.fromTo(
         imageRef.current,
-        { x: -100, opacity: 0, rotation: -5 },
+        { x: -80, autoAlpha: 0 },
         {
           x: 0,
-          opacity: 1,
-          rotation: 0,
-          duration: 1.2,
+          autoAlpha: 1,
+          duration: 1,
           ease: "power2.out",
           scrollTrigger: {
             trigger: imageRef.current,
@@ -49,22 +47,24 @@ const AboutSection = () => {
         }
       );
 
-      // Content animation
-      gsap.fromTo(
-        contentRef.current?.children,
-        { x: 100, opacity: 0 },
-        {
-          x: 0,
-          opacity: 1,
-          duration: 0.8,
-          stagger: 0.2,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: contentRef.current,
-            start: "top 80%",
-          },
-        }
-      );
+      // Content staggered animation
+      if (contentRef.current) {
+        gsap.fromTo(
+          contentRef.current.children,
+          { x: 60, autoAlpha: 0 },
+          {
+            x: 0,
+            autoAlpha: 1,
+            duration: 0.7,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: contentRef.current,
+              start: "top 90%",
+            },
+          }
+        );
+      }
     }, sectionRef);
 
     return () => ctx.revert();
@@ -74,28 +74,25 @@ const AboutSection = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="pt-32 pb-0 relative overflow-hidden"
+      className="pt-32 pb-0 relative overflow-hidden will-change-transform"
     >
       <Starfield />
 
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Profile Image */}
-          <div ref={imageRef} className="relative text-center lg:text-left">
+          <div ref={imageRef} className="relative text-center lg:text-left will-change-transform">
             <div className="relative inline-block">
-              {/* Outer glow ring */}
-              <div className="">
-                <div className="rounded-full overflow-hidden" style={{ width: '500px', height: '600px' }}>
-                  <img
-                    src="/Images/portfolio.png"
-                    alt="Hayley - Software Developer"
-                    className="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-
+              <div className="rounded-full overflow-hidden" style={{ width: '500px', height: '600px' }}>
+                <img
+                  src="/Images/portfolio.png"
+                  alt="Hayley - Software Developer"
+                  className="w-full h-full object-cover rounded-full"
+                  loading="lazy"
+                />
               </div>
 
-              {/* Glow effect */}
+              {/* Glow effects */}
               <div className="absolute -inset-4 rounded-full bg-purple-500 blur-3xl opacity-20 pointer-events-none z-[-1]" />
               <motion.div
                 animate={{ scale: [1, 1.05, 1] }}
@@ -106,7 +103,7 @@ const AboutSection = () => {
           </div>
 
           {/* Right - Content */}
-          <div ref={contentRef} className="space-y-8">
+          <div ref={contentRef} className="space-y-8 will-change-transform">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 About{" "}
@@ -134,6 +131,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
+
       <div className="mt-14 flex justify-center">
         <SkillsSection />
       </div>
