@@ -87,7 +87,7 @@ const AboutSection = () => {
               <div className="">
                 <div className="rounded-full overflow-hidden" style={{ width: '500px', height: '600px' }}>
                   <img
-                    src="..//images/portfolio.png"
+                    src="/Images/portfolio.png"
                     alt="Hayley - Software Developer"
                     className="w-full h-full object-cover rounded-full"
                   />
