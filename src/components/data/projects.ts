@@ -4,7 +4,7 @@ export const projects = [
     title: 'NLP-Based Drone Control with Mixed Reality',
     description: 'Real-time drone control interface combining Natural Language Processing and Mixed Reality.',
     principles: 'Human-computer interaction, signal processing, and command parsing to interpret voice commands and translate them into drone navigation.',
-    image: '../public/images/Drone.jpg',
+    image: '/images/Drone.jpg',
     technologies: ['Python', 'Unity', 'Git'],
     githubUrl: '', 
     features: [
@@ -19,7 +19,7 @@ export const projects = [
     title: 'Student Wellness Appointment Booking System',
     description: 'Java Desktop GUI system enabling students to book counseling sessions and submit feedback.',
     principles: 'Object-oriented design, MVC architecture, and persistent data storage using embedded Java DB.',
-    image: '../public/images/Student Wellness.jpg',
+    image: '/images/Student Wellness.jpg',
     technologies: ['Java', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Appointment-Booking-System.git',
     features: [
@@ -33,7 +33,7 @@ export const projects = [
     title: 'Sentiment Analysis Web Dashboard',
     description: 'A web app that classifies IMDb movie reviews as positive or negative using NLP techniques.',
     principles: 'Text preprocessing, sentiment classification, and model evaluation using NLP and deep learning.',
-    image: '../public/images/Movie Sentiment.jpg',
+    image: '/images/Movie Sentiment.jpg',
     technologies: ['Python', 'Flask', 'NLTK', 'TensorFlow', 'Jupyter', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Sentiment-Analysis-Web-Dashboard.git',
     features: [
@@ -47,7 +47,7 @@ export const projects = [
     title: 'Grade Prediction Tool',
     description: 'Predicts student grade classifications based on input performance indicators using ML algorithms.',
     principles: 'Supervised learning, data preprocessing, model training and performance metrics.',
-    image: '../public/images/Grade predictor.jpg',
+    image: '/images/Grade predictor.jpg',
     technologies: ['Python', 'TensorFlow', 'Flask', 'Jupyter', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Grade-Prediction-Tool.git',
     features: [
@@ -61,7 +61,7 @@ export const projects = [
     title: 'Movie Recommendation System',
     description: 'Console application that generates movie suggestions and tracks user watchlist.',
     principles: 'OOP principles, data structures, and algorithms for efficient recommendation generation.',
-    image: '../public/images/Movie recommendation.jpg',
+    image: '/images/Movie recommendation.jpg',
     technologies: ['C#', 'ASP.NET', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Movie-Recommendation-System.git',
     features: [
@@ -75,7 +75,7 @@ export const projects = [
     title: 'Student Enrollment System',
     description: 'A responsive web app for managing course enrollments and student subjects completion.',
     principles: 'Full-stack web development using relational databases, form validation, and CRUD operations.',
-    image: '../public/images/Student Enrollment.jpg',
+    image: '/images/Student Enrollment.jpg',
     technologies: ['JavaScript', 'HTML', 'CSS', 'MySQL', 'Express.js', 'Node.js', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Student-Enrollment-System.git',
     features: [
@@ -89,7 +89,7 @@ export const projects = [
     title: 'Student Login and Registration Portal',
     description: 'A secure web application featuring form validation, authentication, and session handling.',
     principles: 'Focuses on web security, user authentication, and session management using PostgreSQL.',
-    image: '../public/images/Java PostgreSQL.jpg',
+    image: '/images/Java PostgreSQL.jpg',
     technologies: ['Java', 'PostgreSQL', 'CSS', 'HTML', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Student-Login-and-Registration-Portal.git',
     features: [
@@ -103,7 +103,7 @@ export const projects = [
     title: 'Community Portal',
     description: 'Dynamic web application to showcase upcoming events and introduce a community.',
     principles: 'Built with Node.js, Express.js, and EJS templating engine.',
-    image: '../public/images/Community Portal.PNG',
+    image: '/images/Community Portal.PNG',
     technologies: ['JavaScript', 'Node.js', 'Express.js', 'EJS', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Community-Portal-Website.git',
     features: [
@@ -117,7 +117,7 @@ export const projects = [
     title: 'Static Website',
     description: 'Website about the World Wide Web, with a login/sign up and contact features.',
     principles: 'HTML, CSS, and JavaScript for static content and interactivity.',
-    image: '../public/images/Static Website.PNG',
+    image: '/images/Static Website.PNG',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Git'],
     githubUrl: 'https://github.com/CountessOreo/Static-Website.git',
     features: [
