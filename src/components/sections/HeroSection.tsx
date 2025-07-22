@@ -171,7 +171,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start">
               <button
                 ref={ctaRef}
-                onClick={() => window.open('images/hayley-treutens-cv.pdf', '_blank')}
+                onClick={() => window.open('/Images/hayley-treutens-cv.pdf', '_blank')}
                 className="relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-black text-black font-medium z-10
                           border-2 border-transparent hover:text-black transition
                           before:absolute before:inset-0 before:rounded-full before:p-[2px] before:bg-gradient-to-r before:from-purple-500 before:to-cyan-300 before:z-[-1]  before:duration-300
