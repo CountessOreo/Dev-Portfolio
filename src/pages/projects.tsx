@@ -22,6 +22,8 @@ import {
   SiMongodb,
   SiEjs,
   SiGit,
+  SiBlazor,
+  SiDatabricks, 
 } from 'react-icons/si';
 
 import { FaJava } from "react-icons/fa";
@@ -48,6 +50,9 @@ const iconMap = {
   MongoDB: <SiMongodb className="text-green-500" />,
   EJS: <SiEjs className="text-blue-500" />,
   Git: <SiGit className="text-orange-500" />,
+  Blazor: <SiBlazor className="text-purple-800" />,
+  "Entity Framework Core" : <SiDotnet className="text-blue-500" />,
+  "SQL Server" : <SiDatabricks className="text-red-500" />,
 };
 
 const ProjectsPage = () => {

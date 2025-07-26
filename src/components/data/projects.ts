@@ -20,7 +20,7 @@ export const projects = [
     description: 'A modern Blazor web app to manage, search, and edit a personal book collection with an elegant UI.',
     principles: 'Component-based architecture, CRUD operations with Entity Framework, and responsive user interaction using Syncfusion components.',
     image: '/Images/BookTracker.PNG',
-    technologies: ['Blazor', 'C#', 'Entity Framework Core', 'SQL Server', 'Syncfusion'],
+    technologies: ['Blazor', 'C#', 'Entity Framework Core', 'SQL Server'],
     githubUrl: '', 
     features: [
       'Grid and card views with toggle functionality',
