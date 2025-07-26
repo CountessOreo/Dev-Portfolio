@@ -16,6 +16,22 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Blazor Book Tracker',
+    description: 'A modern Blazor web app to manage, search, and edit a personal book collection with an elegant UI.',
+    principles: 'Component-based architecture, CRUD operations with Entity Framework, and responsive user interaction using Syncfusion components.',
+    image: '/Images/BookTracker.PNG',
+    technologies: ['Blazor', 'C#', 'Entity Framework Core', 'SQL Server', 'Syncfusion'],
+    githubUrl: '', 
+    features: [
+      'Grid and card views with toggle functionality',
+      'Add, edit, and delete books using modal-based forms',
+      'Responsive UI with light/dark mode and smooth animations',
+      'Search functionality for quick book lookup',
+      'Structured service-based data handling and state management'
+    ]
+  },
+  {
+    id: 3,
     title: 'Student Wellness Appointment Booking System',
     description: 'Java Desktop GUI system enabling students to book counseling sessions and submit feedback.',
     principles: 'Object-oriented design, MVC architecture, and persistent data storage using embedded Java DB.',
@@ -29,7 +45,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Sentiment Analysis Web Dashboard',
     description: 'A web app that classifies IMDb movie reviews as positive or negative using NLP techniques.',
     principles: 'Text preprocessing, sentiment classification, and model evaluation using NLP and deep learning.',
@@ -43,7 +59,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Grade Prediction Tool',
     description: 'Predicts student grade classifications based on input performance indicators using ML algorithms.',
     principles: 'Supervised learning, data preprocessing, model training and performance metrics.',
@@ -57,7 +73,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Movie Recommendation System',
     description: 'Console application that generates movie suggestions and tracks user watchlist.',
     principles: 'OOP principles, data structures, and algorithms for efficient recommendation generation.',
@@ -71,7 +87,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'Student Enrollment System',
     description: 'A responsive web app for managing course enrollments and student subjects completion.',
     principles: 'Full-stack web development using relational databases, form validation, and CRUD operations.',
@@ -85,7 +101,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: 'Student Login and Registration Portal',
     description: 'A secure web application featuring form validation, authentication, and session handling.',
     principles: 'Focuses on web security, user authentication, and session management using PostgreSQL.',
@@ -99,7 +115,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: 'Community Portal',
     description: 'Dynamic web application to showcase upcoming events and introduce a community.',
     principles: 'Built with Node.js, Express.js, and EJS templating engine.',
@@ -113,7 +129,7 @@ export const projects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: 'Static Website',
     description: 'Website about the World Wide Web, with a login/sign up and contact features.',
     principles: 'HTML, CSS, and JavaScript for static content and interactivity.',
