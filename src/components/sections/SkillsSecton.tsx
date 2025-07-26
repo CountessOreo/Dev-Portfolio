@@ -37,7 +37,8 @@ import {
   SiApache,
   SiFlask,
   SiTensorflow,
-  SiDotnet
+  SiDotnet,
+  SiBlazor
 } from "react-icons/si";
 
 import { FaJava } from "react-icons/fa";
@@ -81,7 +82,8 @@ const technologies = [
   { name: "Tomcat", color: "text-red-400", icon: SiApache },
   { name: "Flask", color: "text-pink-500", icon: SiFlask },
   { name: "TensorFlow", color: "text-orange-300", icon: SiTensorflow },
-  { name: "ASP.NET", color: "text-blue-500", icon: SiDotnet }
+  { name: "ASP.NET", color: "text-blue-500", icon: SiDotnet },
+  { name: "Blazor", color: "text-purple-800", icon: SiBlazor}
 ];
 
 const SkillsSection = () => {
