@@ -9,7 +9,7 @@ import Link from 'next/link';
 import {
   SiPython, SiUnity, SiApache, SiMysql, SiJupyter, SiTensorflow,
   SiFlask, SiSharp, SiHtml5, SiCss3, SiJavascript, SiDotnet,
-  SiPostgresql, SiExpress, SiNodedotjs, SiMongodb, SiEjs, SiGit,
+  SiPostgresql, SiExpress, SiNodedotjs, SiMongodb, SiEjs, SiGit, SiBlazor, SiDatabricks
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -26,8 +26,8 @@ const iconMap = {
   NLTK: <span className="text-green-500 font-bold">NLTK</span>,
   TensorFlow: <SiTensorflow className="text-orange-300" />,
   Jupyter: <SiJupyter className="text-orange-500" />,
-  "C#": <SiSharp className="text-purple-400" />,
-  "ASP.NET": <SiDotnet className="text-blue-500" />,
+  'C#': <SiSharp className="text-purple-400" />,
+  'ASP.NET': <SiDotnet className="text-blue-500" />,
   HTML: <SiHtml5 className="text-red-500" />,
   CSS: <SiCss3 className="text-blue-300" />,
   JavaScript: <SiJavascript className="text-yellow-400" />,
@@ -38,7 +38,11 @@ const iconMap = {
   MongoDB: <SiMongodb className="text-green-500" />,
   EJS: <SiEjs className="text-blue-500" />,
   Git: <SiGit className="text-orange-500" />,
+  Blazor: <SiBlazor className="text-purple-800" />,
+  "Entity Framework Core" : <SiDotnet className="text-blue-500" />,
+  "SQL Server" : <SiDatabricks className="text-red-500" />,
 };
+
 
 const ProjectsSection = () => {
   const sectionRef = useRef(null);
