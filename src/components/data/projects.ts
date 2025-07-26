@@ -21,7 +21,7 @@ export const projects = [
     principles: 'Component-based architecture, CRUD operations with Entity Framework, and responsive user interaction using Syncfusion components.',
     image: '/Images/BookTracker.PNG',
     technologies: ['Blazor', 'C#', 'Entity Framework Core', 'SQL Server'],
-    githubUrl: '', 
+    githubUrl: 'https://github.com/CountessOreo/Blazor-Book-Tracker', 
     features: [
       'Grid and card views with toggle functionality',
       'Add, edit, and delete books using modal-based forms',
@@ -37,7 +37,7 @@ export const projects = [
     principles: 'Object-oriented design, MVC architecture, and persistent data storage using embedded Java DB.',
     image: '/Images/Student Wellness.jpg',
     technologies: ['Java', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Appointment-Booking-System.git',
+    githubUrl: 'https://github.com/CountessOreo/Appointment-Booking-System',
     features: [
       'Full CRUD functionality for appointments and counselors',
       'User-friendly Swing-based GUI with form validations',
@@ -51,7 +51,7 @@ export const projects = [
     principles: 'Text preprocessing, sentiment classification, and model evaluation using NLP and deep learning.',
     image: '/Images/Movie Sentiment.jpg',
     technologies: ['Python', 'Flask', 'NLTK', 'TensorFlow', 'Jupyter', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Sentiment-Analysis-Web-Dashboard.git',
+    githubUrl: 'https://github.com/CountessOreo/Sentiment-Analysis-Web-Dashboard',
     features: [
       'Preprocessing pipeline for cleaning and tokenizing reviews',
       'Sentiment classification model built with TensorFlow',
@@ -65,7 +65,7 @@ export const projects = [
     principles: 'Supervised learning, data preprocessing, model training and performance metrics.',
     image: '/Images/Grade predictor.jpg',
     technologies: ['Python', 'TensorFlow', 'Flask', 'Jupyter', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Grade-Prediction-Tool.git',
+    githubUrl: 'https://github.com/CountessOreo/Grade-Prediction-Tool',
     features: [
       'Data preprocessing including normalization and feature engineering',
       'Model training with TensorFlow using neural networks',
@@ -79,7 +79,7 @@ export const projects = [
     principles: 'OOP principles, data structures, and algorithms for efficient recommendation generation.',
     image: '/Images/Movie recommendation.jpg',
     technologies: ['C#', 'ASP.NET', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Movie-Recommendation-System.git',
+    githubUrl: 'https://github.com/CountessOreo/Movie-Recommendation-System',
     features: [
       'User watchlist management with CRUD operations',
       'Algorithmic recommendations based on user preferences',
@@ -93,7 +93,7 @@ export const projects = [
     principles: 'Full-stack web development using relational databases, form validation, and CRUD operations.',
     image: '/Images/Student Enrollment.jpg',
     technologies: ['JavaScript', 'HTML', 'CSS', 'MySQL', 'Express.js', 'Node.js', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Student-Enrollment-System.git',
+    githubUrl: 'https://github.com/CountessOreo/Student-Enrollment-System',
     features: [
       'Dynamic course enrollment and subject tracking',
       'Responsive UI with validation and feedback',
@@ -107,7 +107,7 @@ export const projects = [
     principles: 'Focuses on web security, user authentication, and session management using PostgreSQL.',
     image: '/Images/Java PostgreSQL.jpg',
     technologies: ['Java', 'PostgreSQL', 'CSS', 'HTML', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Student-Login-and-Registration-Portal.git',
+    githubUrl: 'https://github.com/CountessOreo/Student-Login-and-Registration-Portal',
     features: [
       'Secure user registration with input validation',
       'Authentication with password hashing and sessions',
@@ -121,7 +121,7 @@ export const projects = [
     principles: 'Built with Node.js, Express.js, and EJS templating engine.',
     image: '/Images/Community Portal.PNG',
     technologies: ['JavaScript', 'Node.js', 'Express.js', 'EJS', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Community-Portal-Website.git',
+    githubUrl: 'https://github.com/CountessOreo/Community-Portal-Website',
     features: [
       'Event listing with date filters',
       'Community info pages with rich text content',
@@ -135,7 +135,7 @@ export const projects = [
     principles: 'HTML, CSS, and JavaScript for static content and interactivity.',
     image: '/Images/Static Website.PNG',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Git'],
-    githubUrl: 'https://github.com/CountessOreo/Static-Website.git',
+    githubUrl: 'https://github.com/CountessOreo/Static-Website',
     features: [
       'Informational pages explaining the WWW',
       'Login and signup forms with client-side validation',
