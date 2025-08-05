@@ -24,6 +24,7 @@ import {
   SiGit,
   SiBlazor,
   SiDatabricks, 
+  SiBootstrap,
 } from 'react-icons/si';
 
 import { FaJava } from "react-icons/fa";
@@ -53,6 +54,7 @@ const iconMap = {
   Blazor: <SiBlazor className="text-purple-800" />,
   "Entity Framework Core" : <SiDotnet className="text-blue-500" />,
   "SQL Server" : <SiDatabricks className="text-red-500" />,
+  Bootstrap : <SiBootstrap className="text-purple-800" />,
 };
 
 const ProjectsPage = () => {

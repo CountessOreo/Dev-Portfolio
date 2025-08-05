@@ -32,6 +32,38 @@ export const projects = [
   },
   {
     id: 3,
+    title: 'Move IT',
+    description: 'A concept website for a fictional moving company',
+    principles: 'Single-page design using Bootstrap, responsive layout, and clean content structure to simulate a professional service site.',
+    image: '/Images/MoveIT.PNG', 
+    technologies: ['HTML', 'CSS', 'Bootstrap'],
+    githubUrl: 'https://github.com/CountessOreo/Move-IT-Concept-Website.git',
+    features: [
+      'Modern single-page layout showcasing services and contact info',
+      'Responsive Bootstrap design for desktop and mobile views',
+      'Clear visual hierarchy and call-to-action buttons',
+      'Simple navigation anchored within the page',
+      'Focus on user-friendly aesthetics and branding'
+    ]
+  },
+  {
+    id: 4,
+    title: 'TinDog',
+    description: 'A fun concept website promoting a fictional Tinder-style dating app for dogs.',
+    principles: 'Single-page responsive layout using Bootstrap, clear marketing message, and playful UI elements to simulate a tech startup promo site.',
+    image: '/Images/TinDog.PNG',
+    technologies: ['HTML', 'CSS', 'Bootstrap'],
+    githubUrl: 'https://github.com/CountessOreo/TinDog.git', 
+    features: [
+      'Catchy landing page with app marketing sections',
+      'Mobile-first responsive design using Bootstrap grid system',
+      'Fun and engaging call-to-action buttons for downloads',
+      'Sleek section transitions and clean layout structure',
+      'Mockup sections for pricing, testimonials, and social proof'
+    ]
+  },
+  {
+    id: 5,
     title: 'Student Wellness Appointment Booking System',
     description: 'Java Desktop GUI system enabling students to book counseling sessions and submit feedback.',
     principles: 'Object-oriented design, MVC architecture, and persistent data storage using embedded Java DB.',
@@ -45,7 +77,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: 'Sentiment Analysis Web Dashboard',
     description: 'A web app that classifies IMDb movie reviews as positive or negative using NLP techniques.',
     principles: 'Text preprocessing, sentiment classification, and model evaluation using NLP and deep learning.',
@@ -59,7 +91,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     title: 'Grade Prediction Tool',
     description: 'Predicts student grade classifications based on input performance indicators using ML algorithms.',
     principles: 'Supervised learning, data preprocessing, model training and performance metrics.',
@@ -73,7 +105,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     title: 'Movie Recommendation System',
     description: 'Console application that generates movie suggestions and tracks user watchlist.',
     principles: 'OOP principles, data structures, and algorithms for efficient recommendation generation.',
@@ -87,7 +119,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 9,
     title: 'Student Enrollment System',
     description: 'A responsive web app for managing course enrollments and student subjects completion.',
     principles: 'Full-stack web development using relational databases, form validation, and CRUD operations.',
@@ -101,7 +133,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 10,
     title: 'Student Login and Registration Portal',
     description: 'A secure web application featuring form validation, authentication, and session handling.',
     principles: 'Focuses on web security, user authentication, and session management using PostgreSQL.',
@@ -115,7 +147,7 @@ export const projects = [
     ],
   },
   {
-    id: 9,
+    id: 11,
     title: 'Community Portal',
     description: 'Dynamic web application to showcase upcoming events and introduce a community.',
     principles: 'Built with Node.js, Express.js, and EJS templating engine.',
@@ -129,7 +161,7 @@ export const projects = [
     ],
   },
   {
-    id: 10,
+    id: 12,
     title: 'Static Website',
     description: 'Website about the World Wide Web, with a login/sign up and contact features.',
     principles: 'HTML, CSS, and JavaScript for static content and interactivity.',

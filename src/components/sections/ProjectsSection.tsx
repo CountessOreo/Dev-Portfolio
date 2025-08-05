@@ -9,7 +9,7 @@ import Link from 'next/link';
 import {
   SiPython, SiUnity, SiApache, SiMysql, SiJupyter, SiTensorflow,
   SiFlask, SiSharp, SiHtml5, SiCss3, SiJavascript, SiDotnet,
-  SiPostgresql, SiExpress, SiNodedotjs, SiMongodb, SiEjs, SiGit, SiBlazor, SiDatabricks
+  SiPostgresql, SiExpress, SiNodedotjs, SiMongodb, SiEjs, SiGit, SiBlazor, SiDatabricks, SiBootstrap
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -41,6 +41,7 @@ const iconMap = {
   Blazor: <SiBlazor className="text-purple-800" />,
   "Entity Framework Core" : <SiDotnet className="text-blue-500" />,
   "SQL Server" : <SiDatabricks className="text-red-500" />,
+  Bootstrap : <SiBootstrap className="text-purple-800" />,
 };
 
 
