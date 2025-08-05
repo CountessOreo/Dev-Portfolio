@@ -38,7 +38,8 @@ import {
   SiFlask,
   SiTensorflow,
   SiDotnet,
-  SiBlazor
+  SiBlazor,
+  SiBootstrap
 } from "react-icons/si";
 
 import { FaJava } from "react-icons/fa";
@@ -69,6 +70,7 @@ const technologies = [
   { name: "Git", color: "text-orange-500", icon: SiGit },
   { name: "HTML", color: "text-red-500", icon: SiHtml5 },
   { name: "CSS", color: "text-blue-300", icon: SiCss3 },
+  { name: "Bootstrap", color: "text-purple-800", icon: SiBootstrap},
   { name: "Node.js", color: "text-green-400", icon: SiNodedotjs },
   { name: "Tailwind", color: "text-teal-400", icon: SiTailwindcss },
   { name: "Java", color: "text-orange-400", icon: FaJava },
@@ -83,7 +85,7 @@ const technologies = [
   { name: "Flask", color: "text-pink-500", icon: SiFlask },
   { name: "TensorFlow", color: "text-orange-300", icon: SiTensorflow },
   { name: "ASP.NET", color: "text-blue-500", icon: SiDotnet },
-  { name: "Blazor", color: "text-purple-800", icon: SiBlazor}
+  { name: "Blazor", color: "text-purple-800", icon: SiBlazor},
 ];
 
 const SkillsSection = () => {
